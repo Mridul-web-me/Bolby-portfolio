@@ -1,0 +1,18 @@
+.introSection{
+    background: #353353;
+    height: 100vh;
+}
+/* .parallax, .parallax .layer {
+    position: absolute;
+}
+.parallax {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+} */
+.introContent {
+    position: relative;
+    top: 30%;
+}

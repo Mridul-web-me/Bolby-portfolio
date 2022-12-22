@@ -1,0 +1,19 @@
+
+.header {
+    background: #353353;
+    border-bottom: 1px solid hsla(0,0%,100%,.1);
+    z-index: 100000;
+    position: fixed;
+    width: 100%;
+}
+.header ul{
+    margin-bottom: 0;
+}
+.header a.navbar-brand, .header a.nav-link {
+    color: #fff;
+}
+
+div#basic-navbar-nav {
+    justify-content: end;
+    text-align: initial;
+}
