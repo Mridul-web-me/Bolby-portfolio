@@ -11,10 +11,11 @@ const Header = () => {
                     scrollTargetIds={["section_1", "section_2"]}
                     activeNavClass="is-active"
                     color="red"
+                    scrollDuration= '10'
                 >
                     <Navbar expand="lg">
                         <Container>
-                            <Navbar.Brand href="#home">Mridul<span>.</span></Navbar.Brand>
+                            <Navbar.Brand href="#home">Mridul<span className='navbarSpan'>.</span></Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="">

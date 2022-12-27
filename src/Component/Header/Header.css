@@ -11,9 +11,35 @@
 }
 .header a.navbar-brand, .header a.nav-link {
     color: #fff;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header a.nav-link.is-active{
+color: #ffd15c;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fff
 }
 
 div#basic-navbar-nav {
     justify-content: end;
     text-align: initial;
+}
+
+
+.header a.navbar-brand {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.header a.navbar-brand .navbarSpan {
+    color: #ff4c60;
+    font-family: fantasy;
+    margin: 0 10px;
+}
+
+a.nav-link {
+    
 }

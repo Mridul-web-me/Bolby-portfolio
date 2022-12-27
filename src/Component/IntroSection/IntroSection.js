@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Button } from 'react-bootstrap'
 import { Typewriter } from 'react-simple-typewriter'
+import avatar from '../../Asset/avatar.jpg'
 import './IntroSection.css'
 
 const IntroSection = () => {
@@ -10,8 +11,9 @@ const IntroSection = () => {
     <div className='introSection' id='section_1'>
         <div className='introContent'>
         <div className='avatar'>
-
+        <img src={avatar} alt='avatar'/>
 </div>
+
 <h1>Md. Mridul Islam</h1>
 <div className='typewriter'>
 <p style={{ margin: 'auto 0', fontWeight: 'normal' }}>
@@ -30,10 +32,10 @@ I'm a{' '}
 </p>
 </div>
 <div className='social-icon'>
-<i class="fa-brands fa-facebook"></i>
-<i class="fa-brands fa-github"></i>
-<i class="fa-brands fa-linkedin"></i>
-<i class="fa-brands fa-square-twitter"></i>
+<i className="fa-brands fa-facebook"></i>
+<i className="fa-brands fa-github"></i>
+<i className="fa-brands fa-linkedin"></i>
+<i className="fa-brands fa-square-twitter"></i>
 </div>
 <Button>Hire Me</Button>
 {/* <div class="parallax" data-relative-input="true"><svg width="27" height="29" class="layer p1"

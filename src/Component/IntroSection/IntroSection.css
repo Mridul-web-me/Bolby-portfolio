@@ -1,7 +1,8 @@
-.introSection{
+.introSection {
     background: #353353;
     height: 100vh;
 }
+
 /* .parallax, .parallax .layer {
     position: absolute;
 }
@@ -15,4 +16,62 @@
 .introContent {
     position: relative;
     top: 30%;
+}
+
+.introSection .avatar img {
+    border-radius: 50%;
+    width: 150px;
+    padding: 0PX;
+}
+
+h1 {}
+
+.introSection h1 {
+    COLOR: #fff;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+p {}
+
+.introSection p {
+    color: #fff;
+    font-size: 30px;
+}
+
+.introSection .social-icon {
+    color: #fff;
+}
+
+.introSection .social-icon i {
+    font-size: 25px;
+    margin: 16px;
+}
+
+.introSection button.btn.btn-primary {
+    background: #ff4c60;
+    outline: none;
+    border: none;
+    width: 130px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 800;
+    transform: perspective(1px) translateZ(0);
+    margin: 20px 0;
+}
+.introSection button.btn.btn-primary:hover{
+    animation: pulse .3s;
+  transition: .3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+    100% {
+    transform: scale(1);
+  }
 }
