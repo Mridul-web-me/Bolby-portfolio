@@ -24,7 +24,6 @@
     padding: 0PX;
 }
 
-h1 {}
 
 .introSection h1 {
     COLOR: #fff;
@@ -32,18 +31,17 @@ h1 {}
     font-size: 45px;
 }
 
-p {}
 
 .introSection p {
     color: #fff;
     font-size: 25px;
 }
 
-.introSection .social-icon {
+.introSection .social-icon a {
     color: #fff;
 }
 
-.introSection .social-icon i {
+.introSection .social-icon a i {
     font-size: 25px;
     margin: 16px;
 }

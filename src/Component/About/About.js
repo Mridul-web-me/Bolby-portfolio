@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import './About.css'
-import AboutSvg from './AboutSvg'
+import HeadingSvg from '../HeadingSvg/HeadingSvg'
 import avatar from './../../Asset/avatar.jpg'
 import ProgressLine from './ProgressLine'
 import Resume from '../../Asset/Resume/Md_Mridul_Islam_Resume.pdf'
@@ -25,7 +25,7 @@ const About = () => {
     <div className='about' id='section_2'>
       <Container>
         <div className='aboutHeading'>
-          <AboutSvg></AboutSvg>
+          <HeadingSvg></HeadingSvg>
           <h1>About Me</h1>
         </div>
         <Row>
@@ -85,10 +85,10 @@ const About = () => {
           </Card>
           </Col>
         </Row>
-        <Row >
+        <Row>
           <Col md={3} className="details">
               <div>
-                <span class="icon-fire"></span>
+                <span className="icon-fire"></span>
               </div>
               <div className='detailsContent'>
               <h3>
@@ -99,7 +99,7 @@ const About = () => {
           </Col>
           <Col md={3} className="details">
             <div>
-                <span class="icon-cup"></span>
+                <span className="icon-cup"></span>
               </div>
               <div className='detailsContent'>
               <h3>
@@ -110,7 +110,7 @@ const About = () => {
           </Col>
           <Col md={3} className="details">
             <div>
-                <span class="icon-people"></span>
+                <span className="icon-people"></span>
               </div>
               <div className='detailsContent'>
               <h3>
@@ -121,7 +121,7 @@ const About = () => {
           </Col>
           <Col md={3} className="details">
             <div>
-                <span class="icon-badge"></span>
+                <span className="icon-badge"></span>
               </div>
               <div className='detailsContent'>
               <h3>

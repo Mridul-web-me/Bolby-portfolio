@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AboutSvg = () => {
+const HeadingSvg = () => {
   return (
     <div>
         <svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" data-arp-injected="true">
@@ -37,4 +37,4 @@ const AboutSvg = () => {
   )
 }
 
-export default AboutSvg
+export default HeadingSvg

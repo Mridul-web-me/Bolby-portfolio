@@ -1,0 +1,74 @@
+.experience{
+    height: 100vh;
+    position: relative;
+    bottom: 100px;
+}
+.experienceHeading {
+
+    display: flex;
+    padding-top: 100px;
+    /* left: 8%; */
+}
+
+.experienceHeading h1 {
+    position: relative;
+    right: 2%;
+    color: #454360;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.degree::before {
+    content: '';
+    /* border-left: 1px solid; */
+}
+
+
+
+.degree {
+    text-align: start;
+    padding: 10px 30px;
+    /* border-left: 1px solid; */
+}
+.degree h4{
+    color: #454360;
+    font-family: "Rubik",sans-serif;
+    font-weight: 700;
+}
+.degree h6{
+    color: #8b88b1;
+}
+.degree p{
+    color: #5e5c7f;
+}
+.eduExperience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin: 15px;
+}
+
+
+span.line {
+    position: absolute;
+    width: 1px;
+    background-color: #ff4c60;
+    top: 30px;
+    bottom: 30px;
+    left: 27px;
+}
+
+span.icon-graduation,
+span.icon-briefcase {
+    color: #ff4c60;
+    font-size: 25px;
+}
+
+.experience .card{
+    background: #fff;
+    box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+    border: none;
+}

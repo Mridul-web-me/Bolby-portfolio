@@ -8,7 +8,7 @@ const Header = () => {
    <div className='header' id='section_1'>
 
                 <ScrollspyNav
-                    scrollTargetIds={["section_1", "section_2"]}
+                    scrollTargetIds={["section_1", "section_2", "section_3", "section_4", 'section_5', 'section_6', 'section_7']}
                     activeNavClass="is-active"
                     color="red"
                     scrollDuration= '10'

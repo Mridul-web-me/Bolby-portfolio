@@ -1,0 +1,62 @@
+.service{
+height: 100vh;
+}
+.ServiceHeading {
+    display: flex;
+    position: relative;
+    padding-top: 100px;
+    /* left: 8%; */
+}
+
+.ServiceHeading h1 {
+    position: relative;
+    right: 2%;
+    color: #454360;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.serviceDetails .card h2{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.serviceContent .serviceDetails .card {
+    align-items: center;
+    padding: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.serviceContent .serviceDetails{
+    transition: all .3s ease-in-out;
+}
+.serviceContent .serviceDetails:hover{
+    transform: translateY(-10px);
+    
+}
+.serviceContent .serviceDetails:nth-child(2) .card h2{
+    color: #454360;
+}
+.serviceContent .serviceDetails:nth-child(1) .card{
+    background-color: #6c6ce5;
+}
+.serviceContent .serviceDetails:nth-child(2) .card{
+    background-color:#f9d74c ;
+    color: #5e5c7f;
+}
+.serviceContent .serviceDetails:nth-child(3) .card{
+    background-color:#f97b8b ;
+}
+
+.service .looking{
+    color: #5e5c7f;
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    margin: 50px 0;
+}
+
+.service .looking a{
+    text-decoration: none;
+    color: #f97b8b;
+}

@@ -32,10 +32,10 @@ const IntroSection = () => {
             </p>
             </div>
             <div className='social-icon'>
-            <i className="fa-brands fa-facebook"></i>
-            <i className="fa-brands fa-github"></i>
-            <i className="fa-brands fa-linkedin"></i>
-            <i className="fa-brands fa-square-twitter"></i>
+            <a href="https://www.facebook.com/mridul.islam01" target="_blank"><i className="fa-brands fa-facebook"></i></a> 
+            <a href="https://github.com/Mridul-web-me" target="_blank"><i className="fa-brands fa-github"></i></a> 
+            <a href="https://www.linkedin.com/in/mridul-islam-1990a9155" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/23Mridul" target="_blank"><i className="fa-brands fa-square-twitter"></i></a> 
             </div>
             <Button>Hire Me</Button>
         </div>
