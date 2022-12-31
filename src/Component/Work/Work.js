@@ -1,6 +1,7 @@
 import React from 'react'
-import { Col, Container, Row, Tab, Tabs } from 'react-bootstrap'
+import { Button, Card, Col, Container, Row, Tab, Tabs } from 'react-bootstrap'
 import HeadingSvg from '../HeadingSvg/HeadingSvg'
+import work1 from '../../Asset/Work/football.png'
 import './Work.css'
 
 const Work = () => {
@@ -19,7 +20,18 @@ const Work = () => {
       <Tab eventKey="everything" title="Everything">
         <Container>
             <Row>
-                <Col md={4}><h1>Hello</h1></Col>
+                <Col md={4}>
+                  <Card>
+                    <img src={work1}/>
+                    <div className='workComponent'>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                  </Card>
+                </Col>
                 <Col md={4}><h1>Hello</h1></Col>
                 <Col md={4}><h1>Hello</h1></Col>
             </Row>

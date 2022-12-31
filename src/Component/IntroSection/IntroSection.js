@@ -37,7 +37,7 @@ const IntroSection = () => {
             <a href="https://www.linkedin.com/in/mridul-islam-1990a9155" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
             <a href="https://twitter.com/23Mridul" target="_blank"><i className="fa-brands fa-square-twitter"></i></a> 
             </div>
-            <Button>Hire Me</Button>
+            <Button href="#section_7">Hire Me</Button>
         </div>
     </div>
   )

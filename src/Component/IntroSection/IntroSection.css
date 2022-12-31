@@ -46,7 +46,7 @@
     margin: 16px;
 }
 
-.introSection button.btn.btn-primary {
+.introSection a.btn.btn-primary {
     background: #ff4c60;
     outline: none;
     border: none;
@@ -57,7 +57,7 @@
     transform: perspective(1px) translateZ(0);
     margin: 20px 0;
 }
-.introSection button.btn.btn-primary:hover{
+.introSection a.btn.btn-primary:hover{
     animation: pulse .3s;
   transition: .3s;
 }

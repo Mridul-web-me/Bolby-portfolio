@@ -29,35 +29,35 @@ const ProgressLine = ({
             }, [visualParts]);
 
   return (
-    <>
-      <div className="progress">
-        <div className="progressLabel">
-            <h6>{label}</h6>
-        </div>
-        <div className="progressLabel2">
-            <h6>{label1}</h6>
-      ` </div>
-      </div>
-      <div
-        className="progressVisualFull"
-        style={{
-          backgroundColor
-        }}
-      >
-        {visualParts.map((item, index) => {
-          return (
+          <>
+            <div className="progress">
+              <div className="progressLabel">
+                  <h6>{label}</h6>
+              </div>
+              <div className="progressLabel2">
+                  <h6>{label1}</h6>
+            </div>
+            </div>
             <div
-              key={index}
+              className="progressVisualFull"
               style={{
-                width: widths[index],
-                backgroundColor: item.color
+                backgroundColor
               }}
-              className="progressVisualPart"
-            />
-          );
-        })}
-      </div>
-    </>
+            >
+              {visualParts.map((item, index) => {
+                return (
+                  <div
+                    key={index}
+                    style={{
+                      width: widths[index],
+                      backgroundColor: item.color
+                    }}
+                    className="progressVisualPart"
+                  />
+                );
+              })}
+            </div>
+          </>
   );
 };
 

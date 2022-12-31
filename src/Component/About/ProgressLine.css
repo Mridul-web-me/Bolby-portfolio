@@ -1,7 +1,8 @@
 .progressVisualFull {
     display: flex;
-    height: 6px;
+    height: 10px;
     margin: 20px 0;
+    border-radius: 15px;
   }
   
   .progressVisualPart {
@@ -14,4 +15,6 @@
   background: #fff;
 }
 
-  
+.progressVisualPart {
+  border-radius: 15px;
+}

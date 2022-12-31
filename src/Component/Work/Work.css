@@ -15,3 +15,23 @@
     font-weight: 900;
     margin-bottom: 60px;
 }
+
+
+.work .workComponent {
+    position: absolute;
+    background: aquamarine;
+    height: 100%;
+    width: 100%;
+    opacity: 80%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.work .workComponent h2{
+    transition: all .3s ease-in-out;
+}
+
+.work .workComponent:hover h2{
+    transform: translateY(-10px);
+}
