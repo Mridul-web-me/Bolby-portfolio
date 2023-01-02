@@ -1,5 +1,5 @@
 .service{
-height: 100vh;
+/* height: 100vh; */
 }
 .ServiceHeading {
     display: flex;
@@ -30,6 +30,7 @@ height: 100vh;
 }
 .serviceContent .serviceDetails{
     transition: all .3s ease-in-out;
+    margin: 10px 0;
 }
 .serviceContent .serviceDetails:hover{
     transform: translateY(-10px);

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import About from '../About/About'
 import ClientReview from '../ClientReview/ClientReview'
 import Contact from '../Contact/Contact'
@@ -16,6 +17,7 @@ const Home = () => {
     <div>
       <Header></Header>
       <IntroSection></IntroSection>
+      <Container>
       <About></About>
       <Services></Services>
       <Experience></Experience>
@@ -25,6 +27,7 @@ const Home = () => {
       <LatestPosts></LatestPosts>
       <Contact></Contact>
       <Footer></Footer>
+      </Container>
     </div>
   )
 }

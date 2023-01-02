@@ -1,7 +1,7 @@
 .experience{
-    height: 100vh;
+    /* height: 100vh;
     position: relative;
-    bottom: 100px;
+    bottom: 100px; */
 }
 .experienceHeading {
 
@@ -71,4 +71,5 @@ span.icon-briefcase {
     background: #fff;
     box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
     border: none;
+    margin: 10px 0;
 }

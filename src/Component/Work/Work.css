@@ -1,8 +1,10 @@
-.work{
-    height: 100vh;
-    position: relative;
-    bottom: 120px;
+.work {
+    /* height: 100vh; */
+    /* position: relative;
+    bottom: 120px; */
+    transition: all .3s;
 }
+
 .workHeading {
     display: flex;
     padding-top: 100px;
@@ -16,22 +18,71 @@
     margin-bottom: 60px;
 }
 
+.work .container {
+    transition: all .3s;
+}
+
+.work .container .row {
+    transition: all .3s;
+}
 
 .work .workComponent {
     position: absolute;
-    background: aquamarine;
+    
     height: 100%;
     width: 100%;
-    opacity: 80%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    opacity: 90%;
+    z-index: 1;
+    display: none;
+    transition: all 0.4s, background-position 0s;
+    /* background: linear-gradient(#1095c1 0 0) var(--p, 0) / var(--p, 0) no-repeat; */
+    transition: 0.4s, background-position 0s;
+    
 }
 
-.work .workComponent h2{
+.workImage img {
+    width: 100%;
+}
+.work .wordDetails{
+    margin: 10px 0S;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.work .wordDetails:hover .workComponent {
+    display: initial;
+    --p: 100%;
+    background-color: rgb(15, 15, 113);
+}
+
+.work .workComponent h2 {
     transition: all .3s ease-in-out;
+    color: #fff;
 }
 
-.work .workComponent:hover h2{
+.work .workComponent:hover h2 {
     transform: translateY(-10px);
+}
+
+p.catName {
+    text-align: left;
+    background: #ff4c60;
+    display: block;
+    width: 100px;
+    padding: 5px;
+    color: #fff;
+    font-size: 15px;
+    opacity: 100%;
+    border-radius: 5px
+}
+
+.workButton {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.work .container .row .col-md-4 {
+    margin: 10px 0;
 }

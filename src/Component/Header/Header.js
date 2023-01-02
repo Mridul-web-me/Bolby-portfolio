@@ -7,7 +7,7 @@ const Header = () => {
   return (
    <div className='header' id='section_1'>
                 <ScrollspyNav
-                    scrollTargetIds={["section_1", "section_2", "section_3", "section_4", 'section_5', 'section_6', 'section_7']}
+                    scrollTargetIds={["section_1", "section_2", "section_3", "section_4", 'section_5', 'section_6', 'contact']}
                     activeNavClass="is-active"
                     color="red"
                     scrollDuration= '10'
@@ -24,7 +24,7 @@ const Header = () => {
                                 <Nav.Link href="#section_4">Experience</Nav.Link>
                                 <Nav.Link href="#section_5">Works</Nav.Link>
                                 <Nav.Link href="#section_6">Blogs</Nav.Link>
-                                <Nav.Link href="#section_7">Contact</Nav.Link>
+                                <Nav.Link href="#contact">Contact</Nav.Link>
                             </Nav>
                             </Navbar.Collapse>
                         </Container>

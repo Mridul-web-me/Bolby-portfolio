@@ -1,11 +1,6 @@
-.ClientReview{
-    height: 100vh;
-    position: relative;
-    bottom: 120px;
-}
+
 .ClientReviewHeading {
     display: flex;
-    padding-top: 100px;
 }
 
 .ClientReviewHeading h1 {

@@ -1,11 +1,7 @@
-.latestPost{
-    height: 100vh;
-    position: relative;
-    bottom: 120px;
-}
+
 .latestPostHeading {
     display: flex;
-    padding-top: 100px;
+
 }
 
 .latestPostHeading h1 {

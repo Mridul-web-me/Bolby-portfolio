@@ -16,7 +16,7 @@ const Experience = () => {
                 <Card>
                    <div className='eduExperience'>
                    <div className='icon'>
-                   <span class="icon-graduation"></span>
+                   <span className="icon-graduation"></span>
                    </div>
                    <span className='line'></span>
                    <div className='degree'>
@@ -31,7 +31,7 @@ const Experience = () => {
                    </div>
                    <div className='eduExperience'>
                    <div className='icon'>
-                   <span class="icon-graduation"></span>
+                   <span className="icon-graduation"></span>
                    </div>
                    <span className='line'></span>
                    <div className='degree'>
@@ -47,7 +47,7 @@ const Experience = () => {
                    </div>
                    <div className='eduExperience'>
                    <div className='icon'>
-                   <span class="icon-graduation"></span>
+                   <span className="icon-graduation"></span>
                    </div>
                    <span className='line'></span>
                    <div className='degree'>
@@ -68,7 +68,7 @@ const Experience = () => {
             <Card>
                    <div className='eduExperience'>
                    <div className='icon'>
-                   <span class="icon-briefcase"></span>
+                   <span className="icon-briefcase"></span>
                    </div>
                    <span className='line'></span>
                    <div className='degree'>
@@ -83,7 +83,7 @@ const Experience = () => {
                    </div>
                    <div className='eduExperience'>
                    <div className='icon'>
-                   <span class="icon-briefcase"></span>
+                   <span className="icon-briefcase"></span>
                    </div>
                    <span className='line'></span>
                    <div className='degree'>
@@ -99,7 +99,7 @@ const Experience = () => {
                    </div>
                    <div className='eduExperience'>
                    <div className='icon'>
-                   <span class="icon-briefcase"></span>
+                   <span className="icon-briefcase"></span>
                    </div>
                    <span className='line'></span>
                    <div className='degree'>

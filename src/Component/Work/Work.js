@@ -21,30 +21,229 @@ const Work = () => {
         <Container>
             <Row>
                 <Col md={4}>
-                  <Card>
-                    <img src={work1}/>
+                  <Card className='wordDetails'>
                     <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
                     <h2>This is Copa america</h2>
                     <div className='workButton'>
                       <Button>Live Priview</Button>
                       <Button>Github</Button>
                     </div>
                     </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
                   </Card>
                 </Col>
-                <Col md={4}><h1>Hello</h1></Col>
-                <Col md={4}><h1>Hello</h1></Col>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
             </Row>
         </Container>
       </Tab>
       <Tab eventKey="eCommerce" title="E-Commerce">
-        <h1>Hello</h1>
+        <Container>
+            <Row>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+            </Row>
+        </Container>
       </Tab>
       <Tab eventKey="Booking" title="Booking">
-        <h1>Hello</h1>
+        <Container>
+            <Row>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+            </Row>
+        </Container>
       </Tab>
       <Tab eventKey="landingPage" title="Landing Page">
-        <h1>Hello</h1>
+        <Container>
+            <Row>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+                <Col md={4}>
+                  <Card className='wordDetails'>
+                    <div className='workComponent'>
+                    <p className='catName'>
+                      Landing Page
+                    </p>
+                    <h2>This is Copa america</h2>
+                    <div className='workButton'>
+                      <Button>Live Priview</Button>
+                      <Button>Github</Button>
+                    </div>
+                    </div>
+                    <div className='workImage'>
+                    <img src={work1} fluid />
+                    </div>
+                  </Card>
+                </Col>
+            </Row>
+        </Container>
       </Tab>
     </Tabs>
         </Container>
