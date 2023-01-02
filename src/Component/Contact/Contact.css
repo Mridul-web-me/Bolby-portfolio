@@ -1,8 +1,4 @@
-.contact{
-    height: 100vh;
-    position: relative;
-    bottom: 120px;
-}
+
 .contactHeading {
     display: flex;
     padding-top: 100px;
@@ -14,4 +10,27 @@
     color: #454360;
     font-weight: 900;
     margin-bottom: 60px;
+}
+
+.contactLeft{
+    background-image: url(../../Asset/contact.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+
+button.sendButton.btn.btn-primary{
+    background: #ff4c60;
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 800;
+    transform: perspective(1px) translateZ(0);
+    margin: 20px 0;
+}
+button.sendButton.btn.btn-primary:hover{
+    animation: pulse .3s;
+    transition: .3s;
 }

@@ -42,6 +42,7 @@
 
 .workImage img {
     width: 100%;
+    height: 200px;
 }
 .work .wordDetails{
     margin: 10px 0S;

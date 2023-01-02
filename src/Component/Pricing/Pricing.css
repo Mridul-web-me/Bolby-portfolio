@@ -11,3 +11,107 @@
     font-weight: 900;
     margin-bottom: 60px;
 }
+.pricing .col-md-4{
+    /* box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+    color: #fff;
+    padding: 30px;
+    margin: 10px 10px;
+    border-radius: 15px; */
+    
+}
+.pricing .pricingContent {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+    color: #fff;
+    padding: 30px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    border: none;
+    
+}
+.pricing .pricingContent.card:nth-child(2){
+    padding: 55px 40px;
+    z-index: 1;
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.pricing .pricingContent .heading{
+    color: #454360;
+    font-family: "Rubik",sans-serif;
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.pricing .pricingContent .pricingContentText{
+    color: #5e5c7f;
+}
+
+.pricing .pricingContent .currency{
+    color: #454360;
+    font-size: 14px;
+}
+.pricing .pricingContent .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: #454360;
+}
+.pricing .pricingContent .tag{
+    color: #454360;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.pricing .pricingContent .pricingBtn{
+    background: #ff4c60;
+    outline: none;
+    border: none;
+    width: 130px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 800;
+    transform: perspective(1px) translateZ(0);
+    margin: 20px 0;
+}
+.pricing .pricingContent .pricingBtn:hover{
+    animation: pulse .3s;
+    transition: .3s;
+}
+
+@media only screen and (max-width: 776px) {
+    .pricing .col-md-4:nth-child(2){
+        box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+    color: #fff;
+    padding: 30px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    }
+}
+
+/* .modal.show .modal-dialog {
+    transform: none;
+    position: relative;
+    top: 30%;
+} */
+.test2 {
+    color: #fff;
+    background: #6c6ce5;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 0;
+    top: 46px;
+    padding: 7px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
